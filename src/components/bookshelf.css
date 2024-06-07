@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(22, 10, 10);
+    color: white;
+    
+}
+
+.box{
+   
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.searchbar{
+   width: 15rem;
+    height: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+
+.card-box{
+    display: flex;
+    /* background-color: rgb(43, 35, 35); */
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* width: 100%; */
+    padding: 0.4rem;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.card-details{
+    background-color: white;
+    /* height: 6rem; */
+    padding: 0.4rem;
+    font-size: 16px;
+    border-radius: 2rem;
+    width: 20%;
+    min-width: 200px;
+    
+}
+.card-detail{
+    margin: 1rem;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.add-btn{
+    padding: 1rem;
+    border-radius: 3rem;
+    font-size: 12px;
+    background-color: rgb(22, 10, 10);
+    color: white;
+    font-weight: 600;
+}
+
+.add-btn-div{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.myBook {
+    /* padding: 0.5rem 1rem; */
+    padding: 1rem;
+    border-radius: 3rem;
+    position: fixed;
+    right: 6%;
+    top: 10%;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.myBook:hover{
+    opacity: 90%;
+    cursor: pointer;
+    
+}
+
+.add-btn:hover{
+    opacity: 80%;
+    cursor: pointer;
+   
+}
+
+
+@media (max-width: 830px) {
+    .myBook {
+        position: relative;
+        margin-top: 1rem;
+        /* margin-top: 1rem;
+        margin-left: 6rem; */
+    }
+}
