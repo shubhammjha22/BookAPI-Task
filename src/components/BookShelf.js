@@ -46,7 +46,7 @@ export default function BookShelf() {
 
   // Using useCallback to memoize the debounced function
   const debouncedFetchContacts = useCallback(
-    debounce((query) => fetchContacts(query), 100),
+    debounce((query) => fetchContacts(query), 500),
     []
   );
 
